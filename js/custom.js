@@ -4,7 +4,7 @@ const displayIpAddress = document.querySelector('#display');
 ipAddress.addEventListener('keypress', show);
 function show(){
     let ipAdress = ipAddress.value;
-    let ipRegEx = /\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}?/; 
+    let ipRegEx = /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}?$/; 
     if(ipRegEx.test(ipAdress)){				
         displayIpAddress.innerHTML= "Ip address valid";
         displayIpAddress.style.color = "green";

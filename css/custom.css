@@ -1,0 +1,10 @@
+#container{
+	border: 1px solid green;
+	margin: auto;
+	width: 500px;
+	height: 200px;
+	padding: 40px;
+}
+input{
+	width: 60%;
+}
